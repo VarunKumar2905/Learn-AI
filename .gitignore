@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables / API keys
+.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Database
+data/learn_ai.db
+
+# Uploaded PDFs
+data/uploads/
+
+# RAG cache
+*.rag.pkl
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
